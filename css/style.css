@@ -2,7 +2,7 @@
 table {color:#0000FF;}
 thead {color:#C37;}
 div {border: solid red;}
-* {
+.pic {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
       -ms-box-sizing: border-box;
@@ -15,7 +15,7 @@ body {
     background-position: 0% 0%;*/
 
 }
-.pic, #navigation{
+.pic{
   border: 10px solid #fff; 
   float: left;
   height: 480px;
