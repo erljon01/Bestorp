@@ -1,20 +1,46 @@
 @import url("http://meyerweb.com/eric/tools/css/reset/reset.css");
 table {color:#0000FF;}
 thead {color:#C37;}
-div {border: solid red;}
+/* div {border: solid red;} */
 .pic {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
       -ms-box-sizing: border-box;
           box-sizing: border-box;
 }
- 
-body { 
-/*    background-image: url("../pics/GH.jpg");
-    background-repeat: no-repeat;
-    background-position: 0% 0%;*/
 
+body { 
 }
+
+
+#bg{
+    text-align:center;       
+    margin: 20px auto;
+    padding: 10px;
+    background-color:#FFF;
+    background: url(../pics/GH.jpg);   
+    background-repeat: no-repeat;    
+    background-size: cover; 
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+#bg:after {
+/*  opacity: 0.1;*/
+}
+
+#navigation{
+  border: 2px solid red; 
+  position: absolute;
+  top:20%;
+  left: 10%;
+  margin: 20px;
+  overflow: auto;
+}
+
+
 .pic{
   border: 10px solid #fff; 
   float: left;
