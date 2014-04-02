@@ -1,13 +1,7 @@
 @import url("http://meyerweb.com/eric/tools/css/reset/reset.css");
 table {color:#0000FF;}
 thead {color:#C37;}
-/* div {border: solid red;} */
-.pic {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-      -ms-box-sizing: border-box;
-          box-sizing: border-box;
-}
+
 
 body { 
 }
@@ -21,8 +15,8 @@ body {
     background: url(../pics/GH.jpg);   
     background-repeat: no-repeat;    
     background-size: cover; 
-    width: 100%;
-    height: 100%;
+    width: 100px;
+    height: 100px;
     top: 0;
     left: 0;
     position: absolute;
@@ -31,16 +25,64 @@ body {
 /*  opacity: 0.1;*/
 }
 
-#navigation{
-  border: 2px solid red; 
-  position: absolute;
-  top:20%;
-  left: 10%;
-  margin: 20px;
-  overflow: auto;
+#container{
+    max-width: 960px;
+    background-color:#F2E9A0;
+    overflow:auto;
+    margin: 0 auto;
 }
+#top{
+    text-align: center;
+}
+#content{
+/*    margin-left: 212px; */
+    background-color: red;
+    width: 700px;
+    padding: 10px;
+    border: 1px solid red;
+    float: left;
+}
+#husbild{
+  height: 480px;
+  width: 640px; 
+  border: 1px solid black;
+}
+#navigation{
+    float: left;
+    width: 200px;
 
-
+    list-style:none;
+}
+#navigation ul{ 
+    border: 1px solid black;  
+    border-bottom: none;
+    margin: 0;
+    padding: 0;
+}
+#navigation li{ 
+    border: 1px solid black;  
+    border-bottom: 1px solid black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#navigation li a{ 
+    display: block;
+    background-color: #9C9;
+    color:#EFE;
+    padding: 10px;
+}
+#navigation li a:hover{ 
+    background-color: #EFE;
+    color:#9C9;
+}
+/* div {border: solid red;} */
+.pic {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
 .pic{
   border: 10px solid #fff; 
   float: left;
@@ -54,3 +96,4 @@ body {
           box-shadow: 5px 5px 5px #111; 
 }
 
+h1 {font-family: Helvetica;}
