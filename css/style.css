@@ -26,7 +26,7 @@ body {
 }
 
 #container{
-    max-width: 960px;
+    max-width: 960px;  
     background-color:#F2E9A0;
     overflow:auto;
     margin: 0 auto;
@@ -47,32 +47,31 @@ body {
   width: 640px; 
   border: 1px solid black;
 }
-#navigation{
+.navigation{
     float: left;
-    width: 200px;
-
+    margin: 5px; 
     list-style:none;
 }
-#navigation ul{ 
+.navigation ul{ 
     border: 1px solid black;  
     border-bottom: none;
-    margin: 0;
+    margin: 30;
     padding: 0;
 }
-#navigation li{ 
+.navigation li{ 
     border: 1px solid black;  
     border-bottom: 1px solid black;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-#navigation li a{ 
+.navigation li a{ 
     display: block;
     background-color: #9C9;
     color:#EFE;
     padding: 10px;
 }
-#navigation li a:hover{ 
+.navigation li a:hover{ 
     background-color: #EFE;
     color:#9C9;
 }
